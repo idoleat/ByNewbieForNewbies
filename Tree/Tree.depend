@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1525068691 source:c:\users\dppss\desktop\tree\main.cpp
+	<iostream>
+	"node.h"
+	"BinaryTree.h"
+
+1525068399 source:c:\users\dppss\desktop\tree\binarytree.cpp
+	<iostream>
+	"BinaryTree.h"
+
+1525068399 c:\users\dppss\desktop\tree\binarytree.h
+	"node.h"
+
+1525068671 c:\users\dppss\desktop\tree\node.h
+
+1525068671 source:c:\users\dppss\desktop\tree\node.cpp
+	<iostream>
+	"node.h"
+
