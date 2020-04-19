@@ -1,0 +1,37 @@
+.root{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card{
+    display: grid;
+    padding: 0.5em;
+    grid-template-columns: repeat(8, 1fr);
+
+}
+
+.card > div:nth-child(even){
+    background: #eee;
+    text-align: center;
+}
+
+.card > div:nth-child(odd){
+    background: #ddd;
+    text-align: center;
+}
+
+.card > div:first-child{
+    background: #aaa;
+}
+
+.title {
+    background: #aaa;
+    grid-column-start: 1;
+    grid-column-end: 9;
+}
+
+.result{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+}
