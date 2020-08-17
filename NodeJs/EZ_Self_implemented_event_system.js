@@ -1,4 +1,5 @@
 function Test(){
+    // default events.
     this.event_listeners = {
         'func1' : (listener) => {
             console.log("func1 event default function call");
