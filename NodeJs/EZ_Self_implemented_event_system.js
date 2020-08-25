@@ -26,3 +26,13 @@ test.on("func1", () => {
 
 test.emitEventListener("func1");
 test.emitEventListener("func2");
+
+test.on("func1", (date) => {
+    console.log("emitted by func1 event. Today is " + date + ".");
+});
+
+test.emitEventListener("func1", "2020-03-17"); //parameteres is filled by emitter.
+
+// other ways to emit events
+test.event_listeners['func1']();
+test.event_listeners['func1']('2020-03-17');
